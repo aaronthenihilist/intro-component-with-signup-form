@@ -5,6 +5,8 @@ let passwordInput = document.querySelector('#password');
 let submitBtn = document.querySelector('#submit-btn');
 let atSignCheck = "@";
 
+let form = document.querySelector('#form');
+
 // Error icons
 let firstNameErrorIcon = document.querySelector('#first-name-error-icon');
 let lastNameErrorIcon = document.querySelector('#last-name-error-icon');
@@ -47,4 +49,5 @@ submitBtn.addEventListener("click", function (e) {
     }
 
     e.preventDefault();
+    form.reset();
 });
