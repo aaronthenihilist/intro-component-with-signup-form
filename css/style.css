@@ -9,8 +9,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    min-height: calc(100vh - 2rem);
-    padding: 1rem;
+    min-height: calc(100vh - 8rem);
+    padding: 4rem;
     background: url(../images/bg-intro-desktop.png), hsl(0, 100%, 74%);
 }
 
@@ -100,6 +100,7 @@ button {
     font-weight: 700;
     color: hsl(0, 100%, 74%);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 footer {
