@@ -30,7 +30,7 @@ main {
 }
 
 .flex-item:nth-of-type(1) {
-    gap: 2rem;
+    gap: 1.5rem;
     color: #fff;
 }
 
@@ -73,6 +73,7 @@ input {
     padding: 1rem 1.5rem;
     border-radius: .25rem;
     border: 1px solid #aaa;
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
@@ -85,11 +86,20 @@ button {
     color: #fff;
     font-weight: 600;
     letter-spacing: .05rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .disclaimer {
     font-size: .75rem;
     text-align: center;
+    font-weight: 600;
+    color: hsl(246, 25%, 77%);
+}
+
+.disclaimer a {
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
 }
 
 footer {
